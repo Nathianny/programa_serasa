@@ -1,0 +1,32 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class ColetaDados {
+	public static void main(String[] args) {
+				
+		String nome = "Nathianny";
+		String sobreNome = "Pereira";
+		String idade = "27";
+		String time = "Palmeiras";
+		
+		Scanner entrada = new Scanner(System.in);
+		
+			System.out.println("Informe seu nome:");
+			String nome = entrada.nextLine();
+			
+			System.out.println("Informe seu sobrenome:");
+			String sobreNome = entrada.nextLine();
+			
+			System.out.println("Informe sua idade:");
+			String idade = entrada.nextInt();
+			
+			System.out.println("Informe seu time:");
+			String time = entrada.nextLine();
+			
+			System.out.println("A" + nome + " " + sobreNome + "tem " + idade + "é torcedora do " + time);
+			
+			entrada.close();
+
+}
+}

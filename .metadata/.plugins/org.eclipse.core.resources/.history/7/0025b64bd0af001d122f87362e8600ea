@@ -1,0 +1,12 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class mediaclientes {
+public static void main(String[] args) {
+	try (Scanner input = new Scanner(System.in)) {
+		System.out.println("Quantidade de clientes no primeiro mês:"); 
+		System.out.println("40");
+	}
+}
+}

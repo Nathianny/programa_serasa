@@ -1,0 +1,8 @@
+package introducao;
+
+public class DadosClientes {
+	public static void main(String[] args) {
+		System.out.println("A média será: " + media);
+	}
+}
+

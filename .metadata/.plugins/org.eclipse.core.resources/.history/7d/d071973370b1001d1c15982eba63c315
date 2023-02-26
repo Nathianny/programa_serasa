@@ -1,0 +1,24 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class Subtracao {
+	
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite o primeiro número");
+		int numeroUm = entrada.nextInt();
+		
+		System.out.print("Digite o segundo número");
+		int numeroDois = entrada.nextInt();
+		
+		float subtração = numeroUm - numeroDois;
+		
+		System.out.print("O resultado da subtração é: " + subtração);
+		
+
+		entrada.close();
+	}
+
+}

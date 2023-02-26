@@ -1,0 +1,23 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class DadosClientes {
+	
+	public static void main(String[] args) {
+		
+		String nome = "Nathianny";
+		String sobreNome = "Pereira";
+		String idade = "27 anos";
+		String time = "Palmeiras";
+		
+			System.out.println("Onome dela é " + nome);
+			System.out.println("O sobrenome dela é " + sobreNome);
+			System.out.println("A idade dela é " + idade);
+			System.out.println("Ela torce para o " + time);
+			
+				 
+	}
+}
+
+

@@ -1,0 +1,28 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class atividade3 {
+	
+	public static void main(String[] args) {
+        Scanner entrada= new Scanner(System.in);
+         
+         System.out.println("Dia atual"); 
+			int diaAtual= entrada.nextInt()
+					
+		  System.out.println("Dia do vencimento"); 
+			int diaVenc = entrada.nextInt()
+					
+		  System.out.println("Dias de atraso"); 
+			int diasAtraso = entrada.nextInt()
+         
+         if (diasAtraso <= 10) {
+             System.out.println("O valor por dia é R$ 1,00");
+         } else (diasAtraso > 10) {
+             System.out.println("O valorr por dia é R$ 1,50!");
+             
+             entrada.close();
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package introducao;
+
+public class ParOuImpar {
+	public static void main(String[] args) {
+		System.out.println("Digite um número");
+		System.out.println("257");
+	}
+}
+

@@ -1,0 +1,23 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class mediaclientes {
+public static void main(String[] args) {
+	try (Scanner input = new Scanner(System.in)) {
+		System.out.println("Quantidade de clientes no primeiro mês:"); 
+		System.out.println("40");
+		System.out.println("Quantidade de clientes no segundo mês:"); 
+		System.out.println("30");
+		System.out.println("Quantidade de clientes no terceiro mês:"); 
+		System.out.println("70");
+		
+			int mes_1 = 40;
+			int mes_2 = 30;
+			int mes_3 = 70;
+			
+			float soma = mes_1 + mes_2 + mes_3;
+			
+			float media = soma / 3;
+	}
+}

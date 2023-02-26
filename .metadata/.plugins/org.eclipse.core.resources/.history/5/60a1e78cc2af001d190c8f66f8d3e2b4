@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class subtracao {
+public static void main(String[] args) {
+try (Scanner input = new Scanner(System.in)) {
+	System.out.println("Informe o primeiro número"); 
+	System.out.print("50");
+	double n1 = input.nextDouble();
+	
+	System.out.print("Informe o segunddo número");
+	System.out.print("525");
+	double n2 = input.nextDouble();
+	
+	double resultado = n1 - n2;
+	
+	System.out.println("A subtração de " + n1 + n2 + " é igual a: " + resultado);
+}
+
+}
+}

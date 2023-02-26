@@ -1,0 +1,31 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class DadosClientes {	
+	public static void main(String[] args) {
+		
+		String nome = "Nathianny";
+		String sobreNome = "Pereira";
+		String idade = "27 anos";
+		String time = "Palmeiras";
+		
+		Scanner input = new Scanner(System.in);
+		
+			System.out.println("Informe seu nome:");
+			String nome = input.nextLine();
+			
+			System.out.println("Informe seu sobrenome:");
+			String sobreNome = input.nextLine();
+			
+			System.out.println("Informe sua idade:");
+			String idade = input.nextLine();
+			
+			System.out.println("Informe seu time:");
+			String time = input.nextLine();
+			
+	   
+	}
+}
+
+

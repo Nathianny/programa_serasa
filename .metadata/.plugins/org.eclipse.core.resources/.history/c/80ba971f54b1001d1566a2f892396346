@@ -1,0 +1,19 @@
+package introducao;
+
+public class ParOuImpar {
+	public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        int numero=257;
+        
+        System.out.print("Digite um número: ");
+        int numero1 = input.nextInt();
+        
+        if (numero1 % 2 == 0) {
+            System.out.println("O número " + numero1 + " é par.");
+        } else {
+            System.out.println("O número " + numero1 + " é ímpar.");
+        }
+    }
+}
+
